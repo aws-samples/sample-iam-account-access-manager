@@ -101,7 +101,7 @@ The roles sit next to the resources they protect. The management account only ho
 
 Both carry the **same** policy document. The tags are the only difference.
 
-Note the role name capitalizes the project while the tag value stays lowercase. Only the tag is compared, and `StringEquals` is case-sensitive — see [Gotchas](#gotchas).
+Note the role name capitalizes the project while the tag value stays lowercase. Only the tag is compared, and `StringEquals` is case-sensitive — see [Considerations and limitations](#considerations-and-limitations).
 
 **One permissions boundary** — `WorkforceAbacBoundary-<environment>`. A hard ceiling: these roles can never act outside S3, whatever gets attached to them later.
 
