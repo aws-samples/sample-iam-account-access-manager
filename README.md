@@ -495,7 +495,7 @@ Deleting the application does **not** delete the IAM roles. They become unassuma
 
 ---
 
-# Gotchas
+# Considerations and limitations
 
 **Tag comparisons are case-sensitive.** `StringEquals` means `project=Phoenix` does not match `project=phoenix`. A case mismatch is a silent denial that looks like a broken policy. **Tag values are lowercase throughout this code**, and must stay that way.
 
