@@ -1,0 +1,30 @@
+{
+  "name": "abac-aam-demo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Implement workforce access using IAM account access manager and ABAC. One IAM role per project, all sharing a single identical ABAC policy document.",
+  "license": "MIT-0",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "build": "tsc",
+    "typecheck": "tsc --noEmit",
+    "test": "jest",
+    "synth": "cdk synth"
+  },
+  "devDependencies": {
+    "@types/jest": "29.5.14",
+    "@types/node": "^22",
+    "aws-cdk": "^2.1138.0",
+    "cdk-nag": "^2.38.2",
+    "jest": "29.7.0",
+    "ts-jest": "29.2.5",
+    "ts-node": "^10.9.2",
+    "typescript": "~5.6.3"
+  },
+  "dependencies": {
+    "aws-cdk-lib": "^2.265.0",
+    "constructs": "^10.0.0"
+  }
+}
